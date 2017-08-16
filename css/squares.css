@@ -1,0 +1,70 @@
+p {
+
+}
+
+#one {
+  background-color: red;
+  border-radius: 100px;
+}
+#two {
+  background-color: blue;
+  border-style: ridge solid dotted dashed;
+  border-color: red green yellow purple;
+  border-radius: 50%;
+}
+#three {
+  background-color: green;
+  border-radius: 60px 0px 0px 60px;
+}
+.square {
+  width: 120px;
+  height: 120px;
+  margin: 40px;
+  float: left;
+}
+
+#text {
+  width: 600px;
+  top: 600px;
+  position:absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 50px;
+  font-family: "Bahiana", cursive;
+  background-color: yellow;
+}
+
+#bold {
+  font-weight: bold;
+  text-align: right;
+}
+#italic {
+  font-style: italic;
+  text-align: left;
+}
+#underline {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#bold-one:hover {
+  font-weight: bold;
+}
+#italic-one:hover {
+  font-style: italic;
+}
+#underline-one:hover {
+  text-decoration: underline;
+}
+
+.hover {
+  color: black;
+  text-decoration: none;
+}
+.hover:hover{
+  text-decoration: line-through;
+  color: red;
+}
+.hover:visited {
+  color: green;
+}
